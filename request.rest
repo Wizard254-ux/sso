@@ -1,0 +1,14 @@
+GET https://896a-2409-4063-4e26-3167-f925-d118-c36f-3ebe.in.ngrok.io/tags?sortby=name
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyODU3YmY2ZmQ3NmE0Mjc5Nzg0ZDE5ZCIsInVzZXJuYW1lIjoiYXJlZWIiLCJyb2xlIjoidXNlciIsImlhdCI6MTY1NDQzODM5MH0.WMGqeWcOm0YmXT0Mf7yqq1eY0gvixLVXDkKOMIKXis0
+
+###
+GET https://clikkle.herokuapp.com/user/profile/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyODU3YmY2ZmQ3NmE0Mjc5Nzg0ZDE5ZCIsInVzZXJuYW1lIjoiYXJlZWIiLCJyb2xlIjoidXNlciIsImlhdCI6MTY1NDQzODM5MH0.WMGqeWcOm0YmXT0Mf7yqq1eY0gvixLVXDkKOMIKXis0
+
+###
+POST https://clikkle.herokuapp.com/exist
+Content-Type: application/json
+
+{
+    "email" : "paradoxmr24@gmail.om"
+}
